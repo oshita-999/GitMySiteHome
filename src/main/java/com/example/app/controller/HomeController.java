@@ -7,6 +7,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
 @GetMapping
 public String list() {
-	retrun "home";
+	return "home";
 }
+
+@GetMapping
+public String edit() {
+	return "edit";
+}
+
+
 }
