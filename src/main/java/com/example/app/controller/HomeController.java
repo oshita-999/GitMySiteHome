@@ -21,5 +21,10 @@ public String edit() {
 	return "edit";
 }
 
+@GetMapping
+public String edit2() {
+	return "edit";
+}
+
 
 }
