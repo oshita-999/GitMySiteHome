@@ -5,4 +5,7 @@ import lombok.Data;
 @Data
 public class Home {
 private String name;
+private String name;
+private String name;
+private String name;
 }
